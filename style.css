@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  .top-bar {
+    background: #5b9bd5;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .auth-links a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: #dbeeff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .subscribe {
+    color: #3c6ea5;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .social {
+    color: #4a90e2;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "box5 box2 box3"
+      "box4 box1 box1";
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .box {
+    color: #444;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .box1 { background: #fdd388; grid-area: box1; }
+  .box2 { background: #f9a9a9; grid-area: box2; }
+  .box3 { background: #a9d4ff; grid-area: box3; }
+  .box4 { background: #ccf2f4; grid-area: box4; }
+  .box5 { background: #d4c1f9; grid-area: box5; }
+  
+  .footer {
+    background: #dbeeff;
+    height: 60px;
+    margin-top: 20px;
+  }
+  
